@@ -1,0 +1,2333 @@
+
+info est du type array
+info a 21 cles
+Array
+(
+    [0] => vss_host
+    [1] => innertube_api_key
+    [2] => gapi_hint_params
+    [3] => use_miniplayer_ui
+    [4] => status
+    [5] => innertube_api_version
+    [6] => host_language
+    [7] => cr
+    [8] => enablecsi
+    [9] => root_ve_type
+    [10] => innertube_context_client_version
+    [11] => csn
+    [12] => cver
+    [13] => c
+    [14] => fexp
+    [15] => hl
+    [16] => ps
+    [17] => fflags
+    [18] => csi_page_type
+    [19] => player_response
+    [20] => watermark
+)
+
+videoData a : 15 cles
+videoData : 
+Array
+(
+    [0] => responseContext
+    [1] => playabilityStatus
+    [2] => streamingData
+    [3] => playbackTracking
+    [4] => captions
+    [5] => videoDetails
+    [6] => playerConfig
+    [7] => storyboards
+    [8] => microformat
+    [9] => trackingParams
+    [10] => attestation
+    [11] => videoQualityPromoSupportedRenderers
+    [12] => messages
+    [13] => endscreen
+    [14] => auxiliaryUi
+)
+
+C:\Users\esaid\OneDrive\Documents\PHPStorm\wordpress\exemple1\Youtube_download.php:43:
+array(15) {
+  'responseContext' =>
+  array(2) {
+    'serviceTrackingParams' =>
+    array(4) {
+      [0] =>
+      array(2) {
+        ...
+      }
+      [1] =>
+      array(2) {
+        ...
+      }
+      [2] =>
+      array(2) {
+        ...
+      }
+      [3] =>
+      array(2) {
+        ...
+      }
+    }
+    'webResponseContextExtensionData' =>
+    array(1) {
+      'hasDecorated' =>
+      bool(true)
+    }
+  }
+  'playabilityStatus' =>
+  array(4) {
+    'status' =>
+    string(2) "OK"
+    'playableInEmbed' =>
+    bool(true)
+    'miniplayer' =>
+    array(1) {
+      'miniplayerRenderer' =>
+      array(1) {
+        ...
+      }
+    }
+    'contextParams' =>
+    string(12) "Q0FFU0FnZ0M="
+  }
+  'streamingData' =>
+  array(3) {
+    'expiresInSeconds' =>
+    string(5) "21540"
+    'formats' =>
+    array(2) {
+      [0] =>
+      array(17) {
+        ...
+      }
+      [1] =>
+      array(15) {
+        ...
+      }
+    }
+    'adaptiveFormats' =>
+    array(36) {
+      [0] =>
+      array(17) {
+        ...
+      }
+      [1] =>
+      array(17) {
+        ...
+      }
+      [2] =>
+      array(17) {
+        ...
+      }
+      [3] =>
+      array(17) {
+        ...
+      }
+      [4] =>
+      array(17) {
+        ...
+      }
+      [5] =>
+      array(17) {
+        ...
+      }
+      [6] =>
+      array(16) {
+        ...
+      }
+      [7] =>
+      array(17) {
+        ...
+      }
+      [8] =>
+      array(17) {
+        ...
+      }
+      [9] =>
+      array(17) {
+        ...
+      }
+      [10] =>
+      array(16) {
+        ...
+      }
+      [11] =>
+      array(17) {
+        ...
+      }
+      [12] =>
+      array(16) {
+        ...
+      }
+      [13] =>
+      array(17) {
+        ...
+      }
+      [14] =>
+      array(17) {
+        ...
+      }
+      [15] =>
+      array(17) {
+        ...
+      }
+      [16] =>
+      array(16) {
+        ...
+      }
+      [17] =>
+      array(17) {
+        ...
+      }
+      [18] =>
+      array(17) {
+        ...
+      }
+      [19] =>
+      array(17) {
+        ...
+      }
+      [20] =>
+      array(17) {
+        ...
+      }
+      [21] =>
+      array(17) {
+        ...
+      }
+      [22] =>
+      array(17) {
+        ...
+      }
+      [23] =>
+      array(17) {
+        ...
+      }
+      [24] =>
+      array(16) {
+        ...
+      }
+      [25] =>
+      array(17) {
+        ...
+      }
+      [26] =>
+      array(17) {
+        ...
+      }
+      [27] =>
+      array(17) {
+        ...
+      }
+      [28] =>
+      array(16) {
+        ...
+      }
+      [29] =>
+      array(17) {
+        ...
+      }
+      [30] =>
+      array(17) {
+        ...
+      }
+      [31] =>
+      array(17) {
+        ...
+      }
+      [32] =>
+      array(17) {
+        ...
+      }
+      [33] =>
+      array(16) {
+        ...
+      }
+      [34] =>
+      array(16) {
+        ...
+      }
+      [35] =>
+      array(16) {
+        ...
+      }
+    }
+  }
+  'playbackTracking' =>
+  array(7) {
+    'videostatsPlaybackUrl' =>
+    array(1) {
+      'baseUrl' =>
+      string(707) "https://s.youtube.com/api/stats/playback?cl=343576433&docid=mkggXE5e2yk&ei=vny-X_LoGoX11wKJk524DQ&fexp=1714250%2C23744176%2C23776272%2C23804281%2C23839597%2C23857950%2C23876171%2C23880663%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23934970%2C23941303%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23948944%2C23950598%2C23951620%2C23957321%2C23958692%2C23961733%2C23965562%2C23967494%2C23969486%2C23969935%2C23969951%2C23970398%2C23970867%2C23970974%2C23972775%2C23974778%2C23974811&ns=yt"...
+    }
+    'videostatsDelayplayUrl' =>
+    array(1) {
+      'baseUrl' =>
+      string(708) "https://s.youtube.com/api/stats/delayplay?cl=343576433&docid=mkggXE5e2yk&ei=vny-X_LoGoX11wKJk524DQ&fexp=1714250%2C23744176%2C23776272%2C23804281%2C23839597%2C23857950%2C23876171%2C23880663%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23934970%2C23941303%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23948944%2C23950598%2C23951620%2C23957321%2C23958692%2C23961733%2C23965562%2C23967494%2C23969486%2C23969935%2C23969951%2C23970398%2C23970867%2C23970974%2C23972775%2C23974778%2C23974811&ns=y"...
+    }
+    'videostatsWatchtimeUrl' =>
+    array(1) {
+      'baseUrl' =>
+      string(708) "https://s.youtube.com/api/stats/watchtime?cl=343576433&docid=mkggXE5e2yk&ei=vny-X_LoGoX11wKJk524DQ&fexp=1714250%2C23744176%2C23776272%2C23804281%2C23839597%2C23857950%2C23876171%2C23880663%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23934970%2C23941303%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23948944%2C23950598%2C23951620%2C23957321%2C23958692%2C23961733%2C23965562%2C23967494%2C23969486%2C23969935%2C23969951%2C23970398%2C23970867%2C23970974%2C23972775%2C23974778%2C23974811&ns=y"...
+    }
+    'ptrackingUrl' =>
+    array(1) {
+      'baseUrl' =>
+      string(192) "https://www.youtube.com/ptracking?ei=vny-X_LoGoX11wKJk524DQ&oid=DG22aJ9RsTjJ5Z_aRlavxA&plid=AAW08FrxggTyAPta&pltype=content&ptchn=ve7_yAZHFNipzeAGBI5t9g&ptk=youtube_single&video_id=mkggXE5e2yk"
+    }
+    'qoeUrl' =>
+    array(1) {
+      'baseUrl' =>
+      string(550) "https://s.youtube.com/api/stats/qoe?cl=343576433&docid=mkggXE5e2yk&ei=vny-X_LoGoX11wKJk524DQ&event=streamingstats&fexp=1714250%2C23744176%2C23776272%2C23804281%2C23839597%2C23857950%2C23876171%2C23880663%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23934970%2C23941303%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23948944%2C23950598%2C23951620%2C23957321%2C23958692%2C23961733%2C23965562%2C23967494%2C23969486%2C23969935%2C23969951%2C23970398%2C23970867%2C23970974%2C23972775%2C23974778%"...
+    }
+    'setAwesomeUrl' =>
+    array(2) {
+      'baseUrl' =>
+      string(104) "https://www.youtube.com/set_awesome?ei=vny-X_LoGoX11wKJk524DQ&plid=AAW08FrxggTyAPta&video_id=mkggXE5e2yk"
+      'elapsedMediaTimeSeconds' =>
+      int(120)
+    }
+    'atrUrl' =>
+    array(2) {
+      'baseUrl' =>
+      string(121) "https://s.youtube.com/api/stats/atr?docid=mkggXE5e2yk&ei=vny-X_LoGoX11wKJk524DQ&len=159&ns=yt&plid=AAW08FrxggTyAPta&ver=2"
+      'elapsedMediaTimeSeconds' =>
+      int(5)
+    }
+  }
+  'captions' =>
+  array(2) {
+    'playerCaptionsRenderer' =>
+    array(2) {
+      'baseUrl' =>
+      string(313) "https://www.youtube.com/api/timedtext?v=mkggXE5e2yk&asr_langs=de,en,es,fr,it,ja,ko,nl,pt,ru&caps=asr&xorp=true&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1606344494&sparams=ip,ipbits,expire,v,asr_langs,caps,xorp,xoaf&signature=3F3EAF76322C03E526091B9D93D269F27E1B7B50.40703E7D17E6124C0375B5738257DE8F9C66D997&key=yt8"
+      'visibility' =>
+      string(7) "UNKNOWN"
+    }
+    'playerCaptionsTracklistRenderer' =>
+    array(4) {
+      'captionTracks' =>
+      array(1) {
+        ...
+      }
+      'audioTracks' =>
+      array(1) {
+        ...
+      }
+      'translationLanguages' =>
+      array(109) {
+        ...
+      }
+      'defaultAudioTrackIndex' =>
+      int(0)
+    }
+  }
+  'videoDetails' =>
+  array(16) {
+    'videoId' =>
+    string(11) "mkggXE5e2yk"
+    'title' =>
+    string(53) "Real 4K HDR 60fps: LG Jazz HDR UHD (Chromecast Ultra)"
+    'lengthSeconds' =>
+    string(3) "159"
+    'keywords' =>
+    array(6) {
+      [0] =>
+      string(3) "hdr"
+      [1] =>
+      string(5) "hdr10"
+      [2] =>
+      string(2) "4k"
+      [3] =>
+      string(3) "uhd"
+      [4] =>
+      string(16) "chromecast ultra"
+      [5] =>
+      string(8) "real hdr"
+    }
+    'channelId' =>
+    string(24) "UCve7_yAZHFNipzeAGBI5t9g"
+    'isOwnerViewing' =>
+    bool(false)
+    'shortDescription' =>
+    string(324) "Video created by LG to promote their TVs. Buy a Chromecast Ultra for your 4K HDR TV: https://bhpho.to/2ry54y5
+
+To view this video in real HDR you need a 4K HDR TV and a device with YouTube HDR such as Chromecast Ultra.
+
+If you are viewing this video on an SDR (normal non-HDR TV) the color and contrast may not look correct."
+    'isCrawlable' =>
+    bool(true)
+    'thumbnail' =>
+    array(1) {
+      'thumbnails' =>
+      array(5) {
+        ...
+      }
+    }
+    'averageRating' =>
+    double(4.8157268)
+    'allowRatings' =>
+    bool(true)
+    'viewCount' =>
+    string(8) "14693113"
+    'author' =>
+    string(15) "The HDR Channel"
+    'isPrivate' =>
+    bool(false)
+    'isUnpluggedCorpus' =>
+    bool(false)
+    'isLiveContent' =>
+    bool(false)
+  }
+  'playerConfig' =>
+  array(5) {
+    'audioConfig' =>
+    array(3) {
+      'loudnessDb' =>
+      double(2.2940922)
+      'perceptualLoudnessDb' =>
+      double(-11.705908)
+      'enablePerFormatLoudness' =>
+      bool(true)
+    }
+    'streamSelectionConfig' =>
+    array(1) {
+      'maxBitrate' =>
+      string(8) "19280000"
+    }
+    'daiConfig' =>
+    array(1) {
+      'enableServerStitchedDai' =>
+      bool(false)
+    }
+    'mediaCommonConfig' =>
+    array(1) {
+      'dynamicReadaheadConfig' =>
+      array(3) {
+        ...
+      }
+    }
+    'webPlayerConfig' =>
+    array(1) {
+      'webPlayerActionsPorting' =>
+      array(5) {
+        ...
+      }
+    }
+  }
+  'storyboards' =>
+  array(1) {
+    'playerStoryboardSpecRenderer' =>
+    array(1) {
+      'spec' =>
+      string(825) "https://i.ytimg.com/sb/mkggXE5e2yk/storyboard3_L$L/$N.jpg?sqp=-oaymwGbA0g48quKqQOSA4gBAZUBAAAEQpgBMqABPKgBBLABELABDbABDLABELABFbABH7ABJrABLbABDrABDrABD7ABErABF7ABK7ABLLABKbABD7ABDrABELABFbABH7ABKrABMrABKbABD7ABEbABFLABGLABJrABPbABOLABLbABEbABFLABHrABKrABMbABS7ABR7ABNrABFbABHLABKbABLrABObABR7ABTbABP7ABJbABLrABN7ABPbABR7ABUrABUbABRbABM7ABQLABQrABQ7ABTLABRLABRrABQ7gBEbgBEbgBFbgBI7gBRLgBQ7gBQ7gBQ7gBEbgBE7gBFrgBL7gBQ7gBQ7gBQ7gBQ7gBFbgBFrgBKbgBQ7gBQ7gBQ7gBQ7gBQ7gBI7gBL7gBQ7gBQ7gBQ7gBQ7gBQ7gBQ7gBRLgBQ7gBQ7gBQ7gBQ7"...
+    }
+  }
+  'microformat' =>
+  array(1) {
+    'playerMicroformatRenderer' =>
+    array(15) {
+      'thumbnail' =>
+      array(1) {
+        ...
+      }
+      'embed' =>
+      array(5) {
+        ...
+      }
+      'title' =>
+      array(1) {
+        ...
+      }
+      'description' =>
+      array(1) {
+        ...
+      }
+      'lengthSeconds' =>
+      string(3) "159"
+      'ownerProfileUrl' =>
+      string(55) "http://www.youtube.com/channel/UCve7_yAZHFNipzeAGBI5t9g"
+      'externalChannelId' =>
+      string(24) "UCve7_yAZHFNipzeAGBI5t9g"
+      'availableCountries' =>
+      array(249) {
+        ...
+      }
+      'isUnlisted' =>
+      bool(false)
+      'hasYpcMetadata' =>
+      bool(false)
+      'viewCount' =>
+      string(8) "14693113"
+      'category' =>
+      string(15) "Travel & Events"
+      'publishDate' =>
+      string(10) "2016-11-22"
+      'ownerChannelName' =>
+      string(15) "The HDR Channel"
+      'uploadDate' =>
+      string(10) "2016-11-22"
+    }
+  }
+  'trackingParams' =>
+  string(36) "CAAQu2kiEwjyv8PXhZ7tAhWF-lUKHYlJB9c="
+  'attestation' =>
+  array(1) {
+    'playerAttestationRenderer' =>
+    array(2) {
+      'challenge' =>
+      string(135) "a=5&a2=1&b=GricN7wOwK1qBhhQYbPfNlY0iyQ&c=1606319294&d=1&e=mkggXE5e2yk&c3a=23&c1a=1&c6a=1&hh=T0sJlzOegy5acY6JqGEGIFP5oR2Oz4zuPJEdFxCyYxM"
+      'botguardData' =>
+      array(2) {
+        ...
+      }
+    }
+  }
+  'videoQualityPromoSupportedRenderers' =>
+  array(1) {
+    'videoQualityPromoRenderer' =>
+    array(5) {
+      'triggerCriteria' =>
+      array(5) {
+        ...
+      }
+      'text' =>
+      array(1) {
+        ...
+      }
+      'endpoint' =>
+      array(3) {
+        ...
+      }
+      'trackingParams' =>
+      string(36) "CAkQ6kUiEwjyv8PXhZ7tAhWF-lUKHYlJB9c="
+      'snackbar' =>
+      array(1) {
+        ...
+      }
+    }
+  }
+  'messages' =>
+  array(1) {
+    [0] =>
+    array(1) {
+      'mealbarPromoRenderer' =>
+      array(10) {
+        ...
+      }
+    }
+  }
+  'endscreen' =>
+  array(1) {
+    'endscreenRenderer' =>
+    array(3) {
+      'elements' =>
+      array(1) {
+        ...
+      }
+      'startMs' =>
+      string(6) "138731"
+      'trackingParams' =>
+      string(36) "CAQQ794BIhMI8r_D14We7QIVhfpVCh2JSQfX"
+    }
+  }
+  'auxiliaryUi' =>
+  array(1) {
+    'messageRenderers' =>
+    array(1) {
+      'upsellDialogRenderer' =>
+      array(14) {
+        ...
+      }
+    }
+  }
+}
+videoDetails a : 16 cles
+videoDetails : 
+Array
+(
+    [0] => videoId
+    [1] => title
+    [2] => lengthSeconds
+    [3] => keywords
+    [4] => channelId
+    [5] => isOwnerViewing
+    [6] => shortDescription
+    [7] => isCrawlable
+    [8] => thumbnail
+    [9] => averageRating
+    [10] => allowRatings
+    [11] => viewCount
+    [12] => author
+    [13] => isPrivate
+    [14] => isUnpluggedCorpus
+    [15] => isLiveContent
+)
+
+C:\Users\esaid\OneDrive\Documents\PHPStorm\wordpress\exemple1\Youtube_download.php:52:
+array(16) {
+  'videoId' =>
+  string(11) "mkggXE5e2yk"
+  'title' =>
+  string(53) "Real 4K HDR 60fps: LG Jazz HDR UHD (Chromecast Ultra)"
+  'lengthSeconds' =>
+  string(3) "159"
+  'keywords' =>
+  array(6) {
+    [0] =>
+    string(3) "hdr"
+    [1] =>
+    string(5) "hdr10"
+    [2] =>
+    string(2) "4k"
+    [3] =>
+    string(3) "uhd"
+    [4] =>
+    string(16) "chromecast ultra"
+    [5] =>
+    string(8) "real hdr"
+  }
+  'channelId' =>
+  string(24) "UCve7_yAZHFNipzeAGBI5t9g"
+  'isOwnerViewing' =>
+  bool(false)
+  'shortDescription' =>
+  string(324) "Video created by LG to promote their TVs. Buy a Chromecast Ultra for your 4K HDR TV: https://bhpho.to/2ry54y5
+
+To view this video in real HDR you need a 4K HDR TV and a device with YouTube HDR such as Chromecast Ultra.
+
+If you are viewing this video on an SDR (normal non-HDR TV) the color and contrast may not look correct."
+  'isCrawlable' =>
+  bool(true)
+  'thumbnail' =>
+  array(1) {
+    'thumbnails' =>
+    array(5) {
+      [0] =>
+      array(3) {
+        ...
+      }
+      [1] =>
+      array(3) {
+        ...
+      }
+      [2] =>
+      array(3) {
+        ...
+      }
+      [3] =>
+      array(3) {
+        ...
+      }
+      [4] =>
+      array(3) {
+        ...
+      }
+    }
+  }
+  'averageRating' =>
+  double(4.8157268)
+  'allowRatings' =>
+  bool(true)
+  'viewCount' =>
+  string(8) "14693113"
+  'author' =>
+  string(15) "The HDR Channel"
+  'isPrivate' =>
+  bool(false)
+  'isUnpluggedCorpus' =>
+  bool(false)
+  'isLiveContent' =>
+  bool(false)
+}
+streamingData a : 3 cles
+streamingData : 
+Array
+(
+    [0] => expiresInSeconds
+    [1] => formats
+    [2] => adaptiveFormats
+)
+
+C:\Users\esaid\OneDrive\Documents\PHPStorm\wordpress\exemple1\Youtube_download.php:61:
+array(3) {
+  'expiresInSeconds' =>
+  string(5) "21540"
+  'formats' =>
+  array(2) {
+    [0] =>
+    array(17) {
+      'itag' =>
+      int(18)
+      'url' =>
+      string(873) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=18&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=video%2Fmp4&ns=hKBNlphg9BY7AtsnDNz_6acF&gir=yes&clen=15743064&ratebypass=yes&dur=158.638&lmt=1573089418992792&mt=1606318871&fvip=5&c=WEB&txp=5531232&n=7j3itBeqXizHMmx&sparams=expire%2Cei%2Cip%2Cid%"...
+      'mimeType' =>
+      string(42) "video/mp4; codecs="avc1.42001E, mp4a.40.2""
+      'bitrate' =>
+      int(794146)
+      'width' =>
+      int(640)
+      'height' =>
+      int(360)
+      'lastModified' =>
+      string(16) "1573089418992792"
+      'contentLength' =>
+      string(8) "15743064"
+      'quality' =>
+      string(6) "medium"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "360p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(793911)
+      'audioQuality' =>
+      string(17) "AUDIO_QUALITY_LOW"
+      'approxDurationMs' =>
+      string(6) "158638"
+      'audioSampleRate' =>
+      string(5) "44100"
+      'audioChannels' =>
+      int(2)
+    }
+    [1] =>
+    array(15) {
+      'itag' =>
+      int(22)
+      'url' =>
+      string(846) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=22&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=video%2Fmp4&ns=hKBNlphg9BY7AtsnDNz_6acF&ratebypass=yes&dur=158.638&lmt=1573092038744978&mt=1606318871&fvip=5&c=WEB&txp=5532232&n=7j3itBeqXizHMmx&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequ"...
+      'mimeType' =>
+      string(42) "video/mp4; codecs="avc1.64001F, mp4a.40.2""
+      'bitrate' =>
+      int(2169471)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'lastModified' =>
+      string(16) "1573092038744978"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "720p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'audioQuality' =>
+      string(20) "AUDIO_QUALITY_MEDIUM"
+      'approxDurationMs' =>
+      string(6) "158638"
+      'audioSampleRate' =>
+      string(5) "44100"
+      'audioChannels' =>
+      int(2)
+    }
+  }
+  'adaptiveFormats' =>
+  array(36) {
+    [0] =>
+    array(17) {
+      'itag' =>
+      int(315)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=315&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(31090418)
+      'width' =>
+      int(3840)
+      'height' =>
+      int(2160)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573093336343070"
+      'contentLength' =>
+      string(9) "498987335"
+      'quality' =>
+      string(6) "hd2160"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(7) "2160p60"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(25171029)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [1] =>
+    array(17) {
+      'itag' =>
+      int(337)
+      'url' =>
+      string(1069) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=337&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(29607992)
+      'width' =>
+      int(3840)
+      'height' =>
+      int(2160)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573099734789005"
+      'contentLength' =>
+      string(9) "554332168"
+      'quality' =>
+      string(6) "hd2160"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(11) "2160p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(27962856)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [2] =>
+    array(17) {
+      'itag' =>
+      int(401)
+      'url' =>
+      string(1068) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=401&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.13M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(16389265)
+      'width' =>
+      int(3840)
+      'height' =>
+      int(2160)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604472002610770"
+      'contentLength' =>
+      string(9) "257429571"
+      'quality' =>
+      string(6) "hd2160"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(11) "2160p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(12985835)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [3] =>
+    array(17) {
+      'itag' =>
+      int(308)
+      'url' =>
+      string(1061) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=308&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(18471084)
+      'width' =>
+      int(2560)
+      'height' =>
+      int(1440)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091150521404"
+      'contentLength' =>
+      string(9) "245403056"
+      'quality' =>
+      string(6) "hd1440"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(7) "1440p60"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(12379166)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [4] =>
+    array(17) {
+      'itag' =>
+      int(336)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=336&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(16801208)
+      'width' =>
+      int(2560)
+      'height' =>
+      int(1440)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573093580721101"
+      'contentLength' =>
+      string(9) "309631628"
+      'quality' =>
+      string(6) "hd1440"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(11) "1440p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(15619127)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [5] =>
+    array(17) {
+      'itag' =>
+      int(400)
+      'url' =>
+      string(1068) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=400&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.12M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(8255380)
+      'width' =>
+      int(2560)
+      'height' =>
+      int(1440)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604472208474458"
+      'contentLength' =>
+      string(9) "127552302"
+      'quality' =>
+      string(6) "hd1440"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(11) "1440p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(6434276)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [6] =>
+    array(16) {
+      'itag' =>
+      int(299)
+      'url' =>
+      string(1066) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=299&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.64002a""
+      'bitrate' =>
+      int(6080236)
+      'width' =>
+      int(1920)
+      'height' =>
+      int(1080)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573090170122013"
+      'contentLength' =>
+      string(9) "103025415"
+      'quality' =>
+      string(6) "hd1080"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(7) "1080p60"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(5197037)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [7] =>
+    array(17) {
+      'itag' =>
+      int(303)
+      'url' =>
+      string(1068) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=303&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(9850114)
+      'width' =>
+      int(1920)
+      'height' =>
+      int(1080)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573090568872566"
+      'contentLength' =>
+      string(8) "89677842"
+      'quality' =>
+      string(6) "hd1080"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(7) "1080p60"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(4523729)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [8] =>
+    array(17) {
+      'itag' =>
+      int(335)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=335&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(7081531)
+      'width' =>
+      int(1920)
+      'height' =>
+      int(1080)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091815517140"
+      'contentLength' =>
+      string(9) "130287983"
+      'quality' =>
+      string(6) "hd1080"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(11) "1080p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(6572276)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [9] =>
+    array(17) {
+      'itag' =>
+      int(399)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=399&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.09M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(3808792)
+      'width' =>
+      int(1920)
+      'height' =>
+      int(1080)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604471745915396"
+      'contentLength' =>
+      string(8) "58954364"
+      'quality' =>
+      string(6) "hd1080"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(11) "1080p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(2973907)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [10] =>
+    array(16) {
+      'itag' =>
+      int(136)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=136&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.4d401f""
+      'bitrate' =>
+      int(2484470)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091996424894"
+      'contentLength' =>
+      string(8) "40448795"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "720p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(2040408)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [11] =>
+    array(17) {
+      'itag' =>
+      int(247)
+      'url' =>
+      string(1066) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=247&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(3220115)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091629315210"
+      'contentLength' =>
+      string(8) "30733030"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "720p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(1550294)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158592"
+    }
+    [12] =>
+    array(16) {
+      'itag' =>
+      int(298)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=298&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.4d4020""
+      'bitrate' =>
+      int(3569482)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089649995643"
+      'contentLength' =>
+      string(8) "61367138"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(6) "720p60"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(3095617)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [13] =>
+    array(17) {
+      'itag' =>
+      int(302)
+      'url' =>
+      string(1068) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=302&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(5819932)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089783811763"
+      'contentLength' =>
+      string(8) "52740232"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(6) "720p60"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(2660440)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [14] =>
+    array(17) {
+      'itag' =>
+      int(334)
+      'url' =>
+      string(1066) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=334&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(4610032)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091158829664"
+      'contentLength' =>
+      string(8) "84950417"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(10) "720p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(4285257)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [15] =>
+    array(17) {
+      'itag' =>
+      int(398)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=398&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.08M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(1978587)
+      'width' =>
+      int(1280)
+      'height' =>
+      int(720)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604470537880354"
+      'contentLength' =>
+      string(8) "31600238"
+      'quality' =>
+      string(5) "hd720"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(10) "720p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(1594049)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [16] =>
+    array(16) {
+      'itag' =>
+      int(135)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=135&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.4d401f""
+      'bitrate' =>
+      int(1222211)
+      'width' =>
+      int(854)
+      'height' =>
+      int(480)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091996439006"
+      'contentLength' =>
+      string(8) "20520799"
+      'quality' =>
+      string(5) "large"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "480p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(1035155)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [17] =>
+    array(17) {
+      'itag' =>
+      int(244)
+      'url' =>
+      string(1068) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=244&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(1519928)
+      'width' =>
+      int(854)
+      'height' =>
+      int(480)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091629280410"
+      'contentLength' =>
+      string(8) "15018692"
+      'quality' =>
+      string(5) "large"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "480p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(757601)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158592"
+    }
+    [18] =>
+    array(17) {
+      'itag' =>
+      int(333)
+      'url' =>
+      string(1068) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=333&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(2013835)
+      'width' =>
+      int(854)
+      'height' =>
+      int(480)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573090038689511"
+      'contentLength' =>
+      string(8) "37265104"
+      'quality' =>
+      string(5) "large"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(10) "480p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(1879809)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [19] =>
+    array(17) {
+      'itag' =>
+      int(397)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=397&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.04M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(628476)
+      'width' =>
+      int(854)
+      'height' =>
+      int(480)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604469326041301"
+      'contentLength' =>
+      string(8) "10631615"
+      'quality' =>
+      string(5) "large"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(8) "480p HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(536303)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [20] =>
+    array(17) {
+      'itag' =>
+      int(134)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=134&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.4d401e""
+      'bitrate' =>
+      int(636748)
+      'width' =>
+      int(640)
+      'height' =>
+      int(360)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091996416815"
+      'contentLength' =>
+      string(8) "11164974"
+      'quality' =>
+      string(6) "medium"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "360p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(563208)
+      'highReplication' =>
+      bool(true)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [21] =>
+    array(17) {
+      'itag' =>
+      int(243)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=243&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(883770)
+      'width' =>
+      int(640)
+      'height' =>
+      int(360)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091629277071"
+      'contentLength' =>
+      string(7) "8366446"
+      'quality' =>
+      string(6) "medium"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "360p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(422036)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158592"
+    }
+    [22] =>
+    array(17) {
+      'itag' =>
+      int(332)
+      'url' =>
+      string(1066) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=332&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(1061665)
+      'width' =>
+      int(640)
+      'height' =>
+      int(360)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573090271461216"
+      'contentLength' =>
+      string(8) "19775689"
+      'quality' =>
+      string(6) "medium"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(10) "360p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(997569)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [23] =>
+    array(17) {
+      'itag' =>
+      int(396)
+      'url' =>
+      string(1066) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=396&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.01M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(348489)
+      'width' =>
+      int(640)
+      'height' =>
+      int(360)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604469120149817"
+      'contentLength' =>
+      string(7) "5921725"
+      'quality' =>
+      string(6) "medium"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(8) "360p HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(298716)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [24] =>
+    array(16) {
+      'itag' =>
+      int(133)
+      'url' =>
+      string(1058) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=133&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.4d4015""
+      'bitrate' =>
+      int(245770)
+      'width' =>
+      int(426)
+      'height' =>
+      int(240)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091996425036"
+      'contentLength' =>
+      string(7) "4348258"
+      'quality' =>
+      string(5) "small"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "240p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(219344)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [25] =>
+    array(17) {
+      'itag' =>
+      int(242)
+      'url' =>
+      string(1067) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=242&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(297042)
+      'width' =>
+      int(426)
+      'height' =>
+      int(240)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091629279869"
+      'contentLength' =>
+      string(7) "4274825"
+      'quality' =>
+      string(5) "small"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "240p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(215638)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158592"
+    }
+    [26] =>
+    array(17) {
+      'itag' =>
+      int(331)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=331&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(501133)
+      'width' =>
+      int(426)
+      'height' =>
+      int(240)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089712454593"
+      'contentLength' =>
+      string(7) "9247526"
+      'quality' =>
+      string(5) "small"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(10) "240p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(466484)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [27] =>
+    array(17) {
+      'itag' =>
+      int(395)
+      'url' =>
+      string(1064) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=395&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.00M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(165065)
+      'width' =>
+      int(426)
+      'height' =>
+      int(240)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604467638918838"
+      'contentLength' =>
+      string(7) "2838465"
+      'quality' =>
+      string(5) "small"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(8) "240p HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(143184)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [28] =>
+    array(16) {
+      'itag' =>
+      int(160)
+      'url' =>
+      string(1064) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=160&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(31) "video/mp4; codecs="avc1.4d400c""
+      'bitrate' =>
+      int(112219)
+      'width' =>
+      int(256)
+      'height' =>
+      int(144)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091996419703"
+      'contentLength' =>
+      string(7) "1999361"
+      'quality' =>
+      string(4) "tiny"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "144p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(100856)
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [29] =>
+    array(17) {
+      'itag' =>
+      int(278)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=278&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(24) "video/webm; codecs="vp9""
+      'bitrate' =>
+      int(113403)
+      'width' =>
+      int(256)
+      'height' =>
+      int(144)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573091629313385"
+      'contentLength' =>
+      string(7) "1863609"
+      'quality' =>
+      string(4) "tiny"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(4) "144p"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(94007)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158592"
+    }
+    [30] =>
+    array(17) {
+      'itag' =>
+      int(330)
+      'url' =>
+      string(1065) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=330&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(26) "video/webm; codecs="vp9.2""
+      'bitrate' =>
+      int(244817)
+      'width' =>
+      int(256)
+      'height' =>
+      int(144)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089579210444"
+      'contentLength' =>
+      string(7) "4494791"
+      'quality' =>
+      string(4) "tiny"
+      'fps' =>
+      int(60)
+      'qualityLabel' =>
+      string(10) "144p60 HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(226736)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [31] =>
+    array(17) {
+      'itag' =>
+      int(394)
+      'url' =>
+      string(1064) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=394&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime"...
+      'mimeType' =>
+      string(50) "video/mp4; codecs="av01.0.00M.10.0.110.09.16.09.0""
+      'bitrate' =>
+      int(78849)
+      'width' =>
+      int(256)
+      'height' =>
+      int(144)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1604467315494341"
+      'contentLength' =>
+      string(7) "1349040"
+      'quality' =>
+      string(4) "tiny"
+      'fps' =>
+      int(30)
+      'qualityLabel' =>
+      string(8) "144p HDR"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(68051)
+      'colorInfo' =>
+      array(3) {
+        ...
+      }
+      'approxDurationMs' =>
+      string(6) "158591"
+    }
+    [32] =>
+    array(17) {
+      'itag' =>
+      int(140)
+      'url' =>
+      string(859) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=140&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=audio%2Fmp4&ns=NCbM_cGtAuWrbFO9pfA1O7UF&gir=yes&clen=2568250&dur=158.638&lmt=1573089257931926&mt=1606318871&fvip=5&keepalive=yes&c=WEB&txp=5531232&n=qYHy1qjV7J8uAyi&sparams=expire%2Cei%2Cip%2Cid%2"...
+      'mimeType' =>
+      string(29) "audio/mp4; codecs="mp4a.40.2""
+      'bitrate' =>
+      int(130415)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089257931926"
+      'contentLength' =>
+      string(7) "2568250"
+      'quality' =>
+      string(4) "tiny"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(129514)
+      'highReplication' =>
+      bool(true)
+      'audioQuality' =>
+      string(20) "AUDIO_QUALITY_MEDIUM"
+      'approxDurationMs' =>
+      string(6) "158638"
+      'audioSampleRate' =>
+      string(5) "44100"
+      'audioChannels' =>
+      int(2)
+      'loudnessDb' =>
+      double(2.2940922)
+    }
+    [33] =>
+    array(16) {
+      'itag' =>
+      int(249)
+      'url' =>
+      string(866) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=249&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=audio%2Fwebm&ns=NCbM_cGtAuWrbFO9pfA1O7UF&gir=yes&clen=1218439&dur=158.601&lmt=1573089258138931&mt=1606318871&fvip=5&keepalive=yes&c=WEB&txp=5531232&n=qYHy1qjV7J8uAyi&sparams=expire%2Cei%2Cip%2Cid%"...
+      'mimeType' =>
+      string(25) "audio/webm; codecs="opus""
+      'bitrate' =>
+      int(64048)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089258138931"
+      'contentLength' =>
+      string(7) "1218439"
+      'quality' =>
+      string(4) "tiny"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(61459)
+      'audioQuality' =>
+      string(17) "AUDIO_QUALITY_LOW"
+      'approxDurationMs' =>
+      string(6) "158601"
+      'audioSampleRate' =>
+      string(5) "48000"
+      'audioChannels' =>
+      int(2)
+      'loudnessDb' =>
+      double(2.2940922)
+    }
+    [34] =>
+    array(16) {
+      'itag' =>
+      int(250)
+      'url' =>
+      string(868) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=250&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=audio%2Fwebm&ns=NCbM_cGtAuWrbFO9pfA1O7UF&gir=yes&clen=1602686&dur=158.601&lmt=1573089256526535&mt=1606318871&fvip=5&keepalive=yes&c=WEB&txp=5531232&n=qYHy1qjV7J8uAyi&sparams=expire%2Cei%2Cip%2Cid%"...
+      'mimeType' =>
+      string(25) "audio/webm; codecs="opus""
+      'bitrate' =>
+      int(83713)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089256526535"
+      'contentLength' =>
+      string(7) "1602686"
+      'quality' =>
+      string(4) "tiny"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(80841)
+      'audioQuality' =>
+      string(17) "AUDIO_QUALITY_LOW"
+      'approxDurationMs' =>
+      string(6) "158601"
+      'audioSampleRate' =>
+      string(5) "48000"
+      'audioChannels' =>
+      int(2)
+      'loudnessDb' =>
+      double(2.2940922)
+    }
+    [35] =>
+    array(16) {
+      'itag' =>
+      int(251)
+      'url' =>
+      string(860) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=251&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=audio%2Fwebm&ns=NCbM_cGtAuWrbFO9pfA1O7UF&gir=yes&clen=3080143&dur=158.601&lmt=1573089256944311&mt=1606318871&fvip=5&keepalive=yes&c=WEB&txp=5531232&n=qYHy1qjV7J8uAyi&sparams=expire%2Cei%2Cip%2Cid%"...
+      'mimeType' =>
+      string(25) "audio/webm; codecs="opus""
+      'bitrate' =>
+      int(161547)
+      'initRange' =>
+      array(2) {
+        ...
+      }
+      'indexRange' =>
+      array(2) {
+        ...
+      }
+      'lastModified' =>
+      string(16) "1573089256944311"
+      'contentLength' =>
+      string(7) "3080143"
+      'quality' =>
+      string(4) "tiny"
+      'projectionType' =>
+      string(11) "RECTANGULAR"
+      'averageBitrate' =>
+      int(155365)
+      'audioQuality' =>
+      string(20) "AUDIO_QUALITY_MEDIUM"
+      'approxDurationMs' =>
+      string(6) "158601"
+      'audioSampleRate' =>
+      string(5) "48000"
+      'audioChannels' =>
+      int(2)
+      'loudnessDb' =>
+      double(2.2940922)
+    }
+  }
+}
+streamingDataformats a : 2 cles
+streamingDataformats : 
+Array
+(
+    [0] => 0
+    [1] => 1
+)
+
+C:\Users\esaid\OneDrive\Documents\PHPStorm\wordpress\exemple1\Youtube_download.php:70:
+array(2) {
+  [0] =>
+  array(17) {
+    'itag' =>
+    int(18)
+    'url' =>
+    string(873) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=18&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=video%2Fmp4&ns=hKBNlphg9BY7AtsnDNz_6acF&gir=yes&clen=15743064&ratebypass=yes&dur=158.638&lmt=1573089418992792&mt=1606318871&fvip=5&c=WEB&txp=5531232&n=7j3itBeqXizHMmx&sparams=expire%2Cei%2Cip%2Cid%"...
+    'mimeType' =>
+    string(42) "video/mp4; codecs="avc1.42001E, mp4a.40.2""
+    'bitrate' =>
+    int(794146)
+    'width' =>
+    int(640)
+    'height' =>
+    int(360)
+    'lastModified' =>
+    string(16) "1573089418992792"
+    'contentLength' =>
+    string(8) "15743064"
+    'quality' =>
+    string(6) "medium"
+    'fps' =>
+    int(30)
+    'qualityLabel' =>
+    string(4) "360p"
+    'projectionType' =>
+    string(11) "RECTANGULAR"
+    'averageBitrate' =>
+    int(793911)
+    'audioQuality' =>
+    string(17) "AUDIO_QUALITY_LOW"
+    'approxDurationMs' =>
+    string(6) "158638"
+    'audioSampleRate' =>
+    string(5) "44100"
+    'audioChannels' =>
+    int(2)
+  }
+  [1] =>
+  array(15) {
+    'itag' =>
+    int(22)
+    'url' =>
+    string(846) "https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=22&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=video%2Fmp4&ns=hKBNlphg9BY7AtsnDNz_6acF&ratebypass=yes&dur=158.638&lmt=1573092038744978&mt=1606318871&fvip=5&c=WEB&txp=5532232&n=7j3itBeqXizHMmx&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequ"...
+    'mimeType' =>
+    string(42) "video/mp4; codecs="avc1.64001F, mp4a.40.2""
+    'bitrate' =>
+    int(2169471)
+    'width' =>
+    int(1280)
+    'height' =>
+    int(720)
+    'lastModified' =>
+    string(16) "1573092038744978"
+    'quality' =>
+    string(5) "hd720"
+    'fps' =>
+    int(30)
+    'qualityLabel' =>
+    string(4) "720p"
+    'projectionType' =>
+    string(11) "RECTANGULAR"
+    'audioQuality' =>
+    string(20) "AUDIO_QUALITY_MEDIUM"
+    'approxDurationMs' =>
+    string(6) "158638"
+    'audioSampleRate' =>
+    string(5) "44100"
+    'audioChannels' =>
+    int(2)
+  }
+}
+Real 4K HDR 60fps: LG Jazz HDR UHD (Chromecast Ultra)
+
+
+
+
+ la video est : 
+https://r1---sn-jxgo-b85l.googlevideo.com/videoplayback?expire=1606340894&ei=vny-X_yYGZmy1gL0oJa4BA&ip=128.141.162.202&id=o-AJZA2OC5ZsvRwv0UKXnCpF0f6vnfx8YuEvjKYwsBCw7o&itag=22&source=youtube&requiressl=yes&mh=br&mm=31%2C29&mn=sn-jxgo-b85l%2Csn-1gi7znes&ms=au%2Crdu&mv=m&mvi=1&pl=16&initcwndbps=2410000&vprv=1&mime=video%2Fmp4&ns=hKBNlphg9BY7AtsnDNz_6acF&ratebypass=yes&dur=158.638&lmt=1573092038744978&mt=1606318871&fvip=5&c=WEB&txp=5532232&n=7j3itBeqXizHMmx&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAJerv190suF1OnyubbIWNX-E9ef7xdjm6vINODsOx3U4AiBkKOP9X7ox3gO1CNJYAVbbbraA3Psp0Gnxd8xnbOVQLA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgP9lVZDdiOv_wMoBN6fIdn2pvItfAunlb_gnkuq0MrYcCIQCTsYKtvVMm-k5UMN9qWFKW0Bgqoe_w6_nbl3EkPQ8xbg%3D%3D 
+Youtube Video Download finished! Now check the file.
+[Done] exited with code=0 in 0.473 seconds
+

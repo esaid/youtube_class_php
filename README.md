@@ -1,14 +1,15 @@
 # youtube_class_php
 
-<h3>
+<h1>
 youtube download video , mp3 conversion (FFMpeg)
-</h3>
+</h1>
 
 il faut installer le programme FFMpeg pour pouvoir convertir le fichier mp4 vers le mp3.
 
-le but de se bout de programme est de montrer en php comment recuperer une video youtube depuis le "link youtube"
+le but de se bout de programme est de montrer en <strong> php </strong> comment recuperer une <strong> video youtube </strong> depuis le "link youtube"
 
-exemple dans le programme : 
+exemple dans le programme :  <br />
+
 <strong>
 /*
 les infos  $monpath et le lien

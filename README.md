@@ -7,6 +7,18 @@ il faut installer le programme FFMpeg pour pouvoir convertir le fichier mp4 vers
 
 le but de se bout de programme est de montrer en php comment recuperer une video youtube depuis le "link youtube"
 
+exemple dans le programme : 
+<p>
+/*
+les infos  $monpath et le lien
+*/
+
+$monpath = "D:/youtube/" ;  # ou seont enregistres les fichiers mp4 et mp3
+
+$linkYoutube = "https://youtu.be/2J7xlDH4QkA" ;
+
+</p>
+
 
 link_URL OK !
 
